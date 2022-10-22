@@ -1,0 +1,44 @@
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 24px;
+    gap: 26px;
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+}
+
+.right > h3{
+    color: var(--gray100);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.right > p{
+    text-align: center;
+    color: var(--gray300);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.right button{
+    width: 100%;
+    height: 38px;
+    padding: 0px 16px;
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+    background: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray100);
+    cursor: pointer;
+}
+
+.right button:hover{
+    background-color: var(--gray800);
+}

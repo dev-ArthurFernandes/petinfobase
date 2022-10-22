@@ -1,0 +1,46 @@
+.pictures{
+    width: 300px;
+    height: 170px;
+    position: relative;
+    display: flex;
+}
+
+#CatWithBushBackground{/* Gato com fundo de grama */
+    position: absolute;
+    transform: translate(0);
+    transition: 500ms linear;
+}
+
+#CatWithBushBackground:hover{
+    transform: translate(0,-10px);
+}
+
+#UpsideDownCat{/* Gato de cabeça para baixo */
+    position: absolute;
+    transform: translateX(100px);
+    transition: 500ms linear;
+}
+
+#UpsideDownCat:hover{
+    transform: translateX(90px);
+}
+
+#DogInTheArmchair{/* Cachoroo em cima da poltrona */
+    position: absolute;
+    transform: translateX(205px);
+    transition: 500ms linear;
+}
+
+#DogInTheArmchair:hover{
+    transform: translateX(215px);
+}
+
+#CatWithBlueEyes{/* Gato com os olhos azuis */
+    position: absolute;
+    transform: translate(100px, 110px);
+    transition: 500ms linear;
+}
+
+#CatWithBlueEyes:hover{
+    transform: translate(100px, 120px);
+}

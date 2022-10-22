@@ -1,0 +1,57 @@
+.loginForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.loginForm > h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--gray100);
+}
+
+.loginForm > div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.loginForm > label{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray100);
+}
+
+.loginForm > div > input{
+    height: 44px;
+    padding: 0 16px;
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+    background-color: var(--gray800);
+}
+
+
+#wrong{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 0;
+    color: var(--alert100);
+}
+
+.loginForm button{
+    height: 38px;
+    padding: 0px 16px;
+    border: 1px solid var(--brand100);
+    border-radius: 4px;
+    background-color: var(--brand100);
+    color: var(--gray900);
+    cursor: pointer;
+    transition: 150ms;
+}
+
+.loginForm button:hover{
+    background-color: var(--brand200);
+}

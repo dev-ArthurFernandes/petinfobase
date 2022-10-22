@@ -1,0 +1,46 @@
+.pictures{
+    width: 290px;
+    height: 210px;
+    display: flex;
+    position: relative;
+}
+
+#CatWithBackgroundBlack{ /* Gato com fundo preto */
+    position: absolute;
+    top: 0;
+    transition: 500ms linear;
+}
+
+#CatWithBackgroundBlack:hover{
+    top: 10px;
+}
+
+#DogWithBackgroundPink{ /* Cachorro com fundo rosa */
+    position: absolute;
+    left: 100px;
+    transition: 500ms linear;
+}
+
+#DogWithBackgroundPink:hover{
+    left: 95px;
+}
+
+#DogWithBackgroundWhite{ /* Cachorro com fundo branco */
+    position: absolute;
+    bottom: 0;
+    transition: 500ms linear;
+}
+
+#DogWithBackgroundWhite:hover{
+    bottom: 10px;
+}
+
+#CatWithBackgroundGrey{ /* Gato com fundo cinza */
+    position: absolute;
+    right: 0;
+    transition: 500ms linear;
+}
+
+#CatWithBackgroundGrey:hover{
+    right: 10px;
+}

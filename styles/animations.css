@@ -1,0 +1,32 @@
+@keyframes arrival-left{
+    0%{opacity: 0%; transform: translateX(-300px);}
+    100%{opacity: 100%; transform: translateX(0);}
+}
+
+@keyframes arrival-right{
+    0%{opacity: 0%; transform: translateX(300px);}
+    100%{opacity: 100%; transform: translateX(0);}
+}
+
+.arrival-left{
+    animation: arrival-left 2s;
+}
+
+.arrival-right{
+    animation: arrival-right 2s;
+}
+
+@keyframes spinner{
+    0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.spinner{
+    background-image: url('/src/img/spinner.svg');
+    animation: spinner 1s linear;
+}
+

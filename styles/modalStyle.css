@@ -1,0 +1,45 @@
+@keyframes modalAnimation{
+    0%{transform: translateY(300px);}
+    25%{transform: translateY(0);}
+    50%{transform: translateY(0);}
+    100%{transform: translateY(300px);}
+}
+
+.modal{
+    width: 441.73px;
+    height: 125px;
+    padding: 21px 32px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+    background: var(--gray900);
+    box-shadow: 0px 4px 30px -12px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    animation: modalAnimation 10s linear;
+}
+
+.modal div{
+    display: flex;
+    gap: 12px;
+}
+
+.modal h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--sucess100);
+}
+
+.modal p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray200);
+}
+
+.modal a{
+    color: var(--brand100);
+}

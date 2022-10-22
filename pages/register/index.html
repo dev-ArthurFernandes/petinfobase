@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="/styles/container.css">
+    <link rel="stylesheet" href="/styles/animations.css">
+    <link rel="stylesheet" href="/styles/modalStyle.css">
+    <link rel="stylesheet" href="/pages/register/styles/sectionLeft.css">
+    <link rel="stylesheet" href="/pages/register/styles/sectionRight.css">
+    <link rel="stylesheet" href="/pages/register/styles/registerForm.css">
+    <link rel="stylesheet" href="/pages/register/styles/pets.css">
+    <title>Petinfo - Cadastrar</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <section class="left arrival-left">
+                <form class="registerForm">
+                    <div id="header">
+                        <h2>Cadastrar</h2>
+                        <button type="button" class="backToLogin">Voltar para o login</button>
+                    </div>
+                    <div>
+                        <label for="userName">Usuário</label>
+                        <input type="text" placeholder="Digite seu usuário aqui..." name="username" id="userName" required />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Digite seu email aqui..." name="email" id="email" required />
+                    </div>
+                    <div>
+                        <label for="avatar">Link da foto do perfil</label>
+                        <input type="text" placeholder="Digite seu email..." name="avatar" id="avatar" required/>
+                    </div>
+                    <div>
+                        <label for="passwoord">Senha</label>
+                        <input type="password" placeholder="Digite sua senha aqui..." name="password" id="password" required>
+                    </div>
+                    
+                    <button type="submit">Cadastrar</button>
+                </form>
+
+                <button class="backToLogin">Voltar para o login</button>
+                
+            </section>
+
+            <section class="right arrival-right">
+                <h1>Petinfo</h1> 
+                <h2>Oooooooba!</h2>
+                <p>Agora vamos poder contribuir para o bem estar do seu pet por meio do conhecimento</p>
+                <div class="pictures">
+                    <img src="/src/img/Gato3.svg" alt="Gato com fundo de mato" id="CatWithBushBackground">
+                    <img src="/src/img/Gato4.svg" alt="Gato de cabeça para baixo" id="UpsideDownCat">
+                    <img src="/src/img/Cachrro3.svg" alt="Cachorro na poltrona" id="DogInTheArmchair">
+                    <img src="/src/img/Gato5.svg" alt="Gato dos olhos azuis" id="CatWithBlueEyes">
+                </div>
+            </section>
+        </div>
+    </main>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="/styles/container.css">
+    <link rel="stylesheet" href="/styles/animations.css">
+    <link rel="stylesheet" href="/pages/login/styles/sectionRight.css">
+    <link rel="stylesheet" href="/pages/login/styles/sectionLeft.css">
+    <link rel="stylesheet" href="/pages/login/styles/pets.css">
+    <link rel="stylesheet" href="/pages/login/styles/loginForm.css">
     <title>Petinfo - Login</title>
 </head>
 <body>
-    <main></main>
+    <main>
+        <div class="container">
+            <section class="left arrival-left">
+                <h1>Petinfo</h1>
+                <h2><span>Amor</span> e <span>carinho</span> por meio do conhecimento</h2>
+                <p>Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+                <div class="pictures">
+                    <img src="/src/img/Gato1.svg" alt="Gato com fundo preto" id="CatWithBackgroundBlack">
+                    <img src="/src/img/Cachorro1.svg" alt="Cachorro com fundo rosa" id="DogWithBackgroundPink">
+                    <img src="/src/img/Cachorro2.svg" alt="Cachorro com fundo branco" id="DogWithBackgroundWhite">
+                    <img src="/src/img/Gato2.svg" alt="Gato com fundo cinza" id="CatWithBackgroundGrey">
+                </div>
+            </section>
+            <section class="right arrival-right">
+                <form class="loginForm">
+                    <h2>Login</h2>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Digite seu email..." name="email" id="email"/>
+                    </div>
+                    <div>
+                        <label for="passwoord">Senha</label>
+                        <input type="password" placeholder="Digite sua senha..." name="password" id="password"/>
+                        <span id="wrong"></span>
+                    </div>
+                    <button type="submit">Acessar</button>
+                </form>
+                <h3>Ainda não possui conta?</h3>
+
+                <p>Clicando no botão abaixo, você pode se cadastrar rapidamente</p>
+
+                <button id="redirectionRegisterButton">Cadastrar</button>
+
+            </section>
+        </div>
+    </main>
     <script type="module" src="index.js"></script>
 </body>
 </html>
