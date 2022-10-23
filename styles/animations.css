@@ -30,3 +30,7 @@
     animation: spinner 1s linear;
 }
 
+@keyframes modalMove{
+    0%{top: -300px}
+    100%{top: 10px}
+}

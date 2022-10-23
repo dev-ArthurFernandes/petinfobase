@@ -1,0 +1,108 @@
+.header{
+    width: 100%;
+    height: 172px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.header > div{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > div > div{
+    height: 100%;
+    display: flex;
+    gap:  16px;
+}
+
+.header > div > div > button{
+    height: 38px;
+    padding: 0 16px;
+    color: var(--gray900);
+    border: 1px solid var(--brand100);
+    border-radius: 4px;
+    background-color: var(--brand100);
+    cursor: pointer;
+}
+
+.header > div > div > button:hover{
+    background-color: var(--brand200);
+}
+
+#avatar{
+    min-width: 41px;
+    max-width: 41px;
+    min-height: 41px;
+    max-height: 41px;
+    border: 1px solid var(--brand100);
+    border-radius: 100%;
+}
+
+
+.img:hover #menu{
+    display: flex;
+}
+
+
+#menu{
+    width: 215px;
+    height: 117px;
+    border-radius: 4px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translateX(-170px);
+    box-shadow: 0px 4px 40px -12px rgba(0, 0, 0, 0.25);
+}
+
+#menu > #top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 17px;
+    align-items: center;
+}
+
+#menu > #top > p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+#menu > #bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 17px;
+    background-color: var(--gray700);
+    cursor: pointer;
+}
+
+#bottom:hover, #top > p:hover{
+    text-decoration: underline;
+}
+
+#menu > #bottom > img{
+    width: 14px;
+    height: 21px;
+}
+
+.titleFeed{
+    width: 100%; 
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: var(--gray800);
+    margin-bottom: 40px;
+}
+

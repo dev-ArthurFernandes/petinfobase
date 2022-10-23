@@ -22,12 +22,12 @@ function loadPage(){
                 body[elem.name] = elem.value
             }
         })
-
+        console.log(body)
         await register(body)
     })
 
     backToLogin.forEach(button => {
-        button.addEventListener('click', () => window.location.assign('/pages/login/index.html'))
+        button.addEventListener('click', () => window.location.assign('/index.html'))
     })
 }
 

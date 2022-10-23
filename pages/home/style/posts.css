@@ -1,0 +1,124 @@
+.post{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.post button{
+    height: 32px;
+    border: 1px solid var(--gray700);
+    border-radius: 4px;
+    padding: 0 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+#postHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#postHeader div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--gray600);
+}
+
+#headerDiv2{
+    position: relative;
+}
+
+#headerDiv2 > p{
+    color: var(--gray100);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#postHeader > #headerDiv2 > #bntPopUp{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(20px, 35px);
+}
+
+#userSpan{
+    height: 32px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray100);
+}
+
+#userSpan > img{
+    width: 32px;
+    height: 100%;
+    border-radius: 100%;
+}
+
+#Data p {
+    height: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray400);    
+}
+
+#edit{
+    border: 1px solid var(--gray600);
+    background: transparent;
+    color: var(--gray100);
+}
+
+#edit:hover{
+    background-color: var(--gray800);
+}
+
+#delet{
+    color: var(--gray400);
+} 
+
+#delet:hover{
+    background-color: var(--gray600);
+    color: var(--gray300);
+}
+
+.post h2{
+    width: 100%;    
+    font-weight: 600;
+    font-size: 24px; 
+    line-height: 150%;
+}
+
+.post > p{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray300);
+}
+
+.post a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: none;
+    color: var(--brand100);
+    cursor: pointer;
+}
+
+.post a:hover{
+    text-decoration: underline;
+    color: var(--brand200);
+}
