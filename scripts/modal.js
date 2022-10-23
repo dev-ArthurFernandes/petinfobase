@@ -58,7 +58,7 @@ function postModal(token, type, post){
         bnt2.innerText = 'Salvar Alterações'
         bnt2.addEventListener('click', async () => {
             let body = {
-                title: titelInput.value,
+                title: titleInput.value,
                 content: contentArea.value,
             }
 
